@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{    
+    background-color: black;    
+}
+.headerLogo, .nav, .navList{
+    display: inline-block;
+    margin: 5px;
+}
+.nav{
+    position: absolute;
+    right: 0;
+}
+.navList{   
+    display: flex; 
+    font-size: 2.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.navList li a::after{
+    content: "-";
+}
+.navList li a{        
+    text-decoration: none;
+    color: green;
+}
+.main{
+    height: 400px;    
+    background-color: rgb(48, 138, 30);
+}
+.routes{
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: green;
+}
+.routesImagenes img{
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+.content{
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0rem;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0rem;
+    background-color: green;
+}
